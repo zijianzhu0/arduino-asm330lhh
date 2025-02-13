@@ -1,0 +1,43 @@
+# Ignore compiled binary files
+*.hex
+*.elf
+*.bin
+*.eep
+
+# Arduino build files
+*.o
+*.d
+*.a
+*.lst
+*.map
+*.sym
+*.srec
+
+# Arduino libraries (if using external ones)
+libraries/
+
+# Ignore build directories
+/build/
+.ccls-cache/
+.arduino/
+.arduino15/
+.vscode/
+
+# macOS system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Linux system files
+*~
+.nfs*
+
